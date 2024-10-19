@@ -27,10 +27,10 @@ public final class Constants {
     public static final String PREF_INSTALLING_AB_ID = "installing_ab_id";
     public static final String DOWNLOAD_PATH = "/data/system_updates/";
     static final String PROP_AB_DEVICE = "ro.build.ab_update";
-    static final String PROP_DEVICE = "ro.custom.device";
-    static final String PROP_BUILD_VERSION = "net.pixelos.version";
-    static final String OTA_URL = "https://raw.githubusercontent.com/PixelOS-AOSP/official_devices/%s/API/updater/%s.json";
-    static final String MAINTAINER_URL = "https://github.com/%s";
-    static final String DOWNLOAD_WEBPAGE_URL = "https://pixelos.net/download/%s";
-    static final String EXPORT_PATH = "PixelOS-Updates/";
+    static final String PROP_DEVICE = "ro.feather.device";
+    static final String PROP_BUILD_VERSION = "ro.modversion";
+    static final String OTA_URL = "https://downloads.sourceforge.net/project/featherrom/%s/%s/update.json";
+    static final String MAINTAINER_URL = "https://t.me/AliHasan7671";
+    static final String DOWNLOAD_WEBPAGE_URL = "https://sourceforge.net/projects/featherrom/files/%s/%s/";
+    static final String EXPORT_PATH = "Feather-Updates/";
 }
